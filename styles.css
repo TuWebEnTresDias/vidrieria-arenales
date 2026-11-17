@@ -231,3 +231,64 @@ button, input, textarea { font: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Ajustes de lectura y alineación */
+.quick-facts {
+  width: min(100%, var(--container));
+  margin-inline: auto;
+}
+@media (min-width: 701px) {
+  .site-nav a { font-size: 12px; }
+  .brand-name small { font-size: 9px; }
+  .hero-overline, .eyebrow { font-size: 10px; }
+  .hero-description { font-size: 16px; }
+  .hero-credit { font-size: 10px; }
+  .quick-facts span { font-size: 9px; }
+  .quick-facts strong { font-size: clamp(18px, 1.6vw, 21px); }
+  .section-intro > p:last-child, .gallery-heading > p { font-size: 15px; }
+  .service-row h3 { font-size: 29px; }
+  .service-row p, .service-footnote p { font-size: 13px; }
+  .service-footnote span { font-size: 15px; }
+  .interlude > a { font-size: 12px; }
+  .gallery-item figcaption > span { font-size: 12px; }
+  .gallery-item figcaption strong { font-size: 16px; }
+  .gallery-item figcaption a, .gallery-note { font-size: 10px; }
+  .contact-band li { font-size: 13px; }
+  .contact-band li span { font-size: 13px; }
+  .location-panel address, .contact-explainer { font-size: 15px; }
+  .hours > span { font-size: 9px; }
+  .hours p { font-size: 13px; }
+  .contact-form label { font-size: 12px; }
+  .contact-form input, .contact-form textarea { font-size: 14px; }
+  .form-note { font-size: 11px; }
+  .footer-inner > p { font-size: 11px; }
+  .footer-inner > a:last-child { font-size: 12px; }
+  .footer-bottom { font-size: 10px; }
+}
+@media (max-width: 700px) {
+  .site-nav a { font-size: 13px; }
+  .hero-overline, .eyebrow { font-size: 9px; }
+  .hero-description { font-size: 14px; }
+  .hero-credit { font-size: 9px; }
+  .quick-facts span { font-size: 9px; }
+  .quick-facts strong { font-size: 18px; }
+  .section-intro > p:last-child, .gallery-heading > p { font-size: 14px; }
+  .service-row h3 { font-size: 26px; }
+  .service-row p, .service-footnote p { font-size: 13px; }
+  .service-footnote span { font-size: 15px; }
+  .interlude > a { font-size: 12px; }
+  .gallery-item figcaption > span { font-size: 12px; }
+  .gallery-item figcaption strong { font-size: 14px; }
+  .gallery-item figcaption a, .gallery-note { font-size: 9px; }
+  .contact-band li { font-size: 13px; }
+  .contact-band li span { font-size: 13px; }
+  .location-panel address, .contact-explainer { font-size: 14px; }
+  .hours > span { font-size: 9px; }
+  .hours p { font-size: 13px; }
+  .contact-form label { font-size: 12px; }
+  .contact-form input, .contact-form textarea { font-size: 14px; }
+  .form-note { font-size: 11px; }
+  .footer-inner > p { font-size: 11px; }
+  .footer-inner > a:last-child { font-size: 12px; }
+  .footer-bottom { font-size: 9px; }
+}
